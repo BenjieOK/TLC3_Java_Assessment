@@ -1,4 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Stocks implements MontrealTradedProducts {
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
+
+    List <Product> products = new ArrayList<>();
+
 
     @Override
     public void addNewProduct(Product product) throws ProductAlreadyRegisteredException {

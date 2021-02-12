@@ -10,7 +10,5 @@ class ProductTest {
     public void productTest(){
         Product newProduct = mock(Product.class);
 
-
-
     }
 }

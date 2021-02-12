@@ -60,8 +60,6 @@ public class Product implements ProductPricingService {
         }
     }
 
-
-
     @Override
     public double price(String exchange, String ticker) {
         return 0;
